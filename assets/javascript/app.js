@@ -33,13 +33,11 @@
     function displayGifs(){
         var action = $(this).attr("data-name");
         var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + action + "&api_key=dc6zaTOxFJmzC&limit=10";
-        console.log(queryURL); // displays the constructed url
         $.ajax({
             url: queryURL,
             method: 'GET'
         })
         .done(function(response) {
-            console.log(response); // console test to make sure something returns
             $("#gifsView").empty(); // erasing anything in this div id so that it doesnt keep any from the previous click
             var results = response.data; //shows results of gifs
             if (results == ""){
