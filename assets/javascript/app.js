@@ -1,6 +1,6 @@
 
 
-$( document ).ready(function() {
+    $( document ).ready(function() {
     // An array of topics, new topics will be pushed into this array;
     var topics = ["Dog", "Cat", "Falling", "Funny", "Car", "Baby", "Eating", "Falcon", "Crying", "summer", "snow", "Winking","Rabbit", "Flying", "Hopping", "stars"];
     // Creating Functions & Methods
@@ -82,5 +82,7 @@ $( document ).ready(function() {
             $(this).attr('src', $(this).data('still'));
             $(this).attr('data-state', 'still');
         }
+    
     });
     });
+    
