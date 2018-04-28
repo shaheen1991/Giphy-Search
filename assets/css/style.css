@@ -1,0 +1,51 @@
+body{
+	
+    background: url('../images/Blur-Light.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    color: #fff;
+}
+* {
+	box-sizing: border-box;
+}
+img { 
+    height: 150px;
+    width: 150px;
+}
+.btn {
+    margin: 3px;
+    background-color: #f11a1a;
+    border-color: #fff;
+}
+.gifDiv{
+    float: left;
+    margin: 3px;
+}
+.container {
+    background: url("../images/light-grey-terrazzo.png");
+    color: black;
+    padding: 20px;
+    border-radius: 25px;
+}
+.jumbotron {
+    background-color: inherit;
+    
+}
+.jumbotron .h1, .jumbotron h1 {
+    text-align: center;
+    font-family: Ayres Serif;
+}
+#copyright{
+	font-size: 14px;
+}
+div#footer {
+	clear: both;
+	margin-top: 40px;
+	position: center;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+}
+
