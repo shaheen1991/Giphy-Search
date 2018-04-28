@@ -44,4 +44,10 @@ div#footer {
 	left: 0;
 	text-align: center;
 }
+#action-input {
+    width: 100%;
+}
+#addGif{
+    width: 100%;
+}
 
